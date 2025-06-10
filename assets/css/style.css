@@ -1011,6 +1011,7 @@ textarea.form-control.is-invalid {
   font-size: 16px;
   text-transform: capitalize;
   color: var(--title-color);
+  font-family: var(--body-font);
 }
 .vs-mobile-menu ul li a:before {
   content: "\f105";
@@ -10316,8 +10317,9 @@ span.select2-selection.select2-selection--single:focus {
 
 .process-box-body {
   width: 200px;
-  height: 210px;
-  box-shadow: 0px 20px 60px 0px rgba(16, 55, 65, 0.06);
+  height: 200px;
+  /*box-shadow: 0px 20px 60px 0px rgba(16, 55, 65, 0.06);*/
+  box-shadow: 0px 20px 60px 0px rgb(0 0 0 / 6%);
   background-color: var(--white-color);
   text-align: center;
   margin-left: 24px;
@@ -10328,7 +10330,7 @@ span.select2-selection.select2-selection--single:focus {
   content: "";
   width: calc(100% + 8px);
   height: calc(100% + 8px);
-  border: 2px solid rgb(242, 244, 249);
+  /*border: 2px solid rgb(242, 244, 249);*/
   position: absolute;
   top: 2px;
   left: 2px;
@@ -13617,4 +13619,8 @@ span.select2-selection.select2-selection--single:focus {
   position: absolute;
   top: 190px;
   right: 103px;
+}
+
+.gx-19 {
+  --bs-gutter-x: 19px;
 }
