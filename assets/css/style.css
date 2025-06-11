@@ -13025,7 +13025,7 @@ span.select2-selection.select2-selection--single:focus {
   margin-bottom: 30px;
 }
 .about-layout1 .check-list1 .about-list li {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--title-color);
   text-transform: capitalize;
@@ -13622,5 +13622,5 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .gx-19 {
-  --bs-gutter-x: 19px;
+  --bs-gutter-x: 17px;
 }

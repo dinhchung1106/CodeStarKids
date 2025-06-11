@@ -526,10 +526,10 @@ function popupSarchBox($searchBox, $searchOpen, $searchCls, $toggleCls) {
 popupSarchBox('.popup-search-box', '.searchBoxToggler', '.searchClose', 'show');
 
 /*----------- 15. Counter Up ----------*/
-$('.counter-number').counterUp({
-  delay: 10,
-  time: 1000
-});
+// $('.counter-number').counterUp({
+//   delay: 10,
+//   time: 1000
+// });
 
 /*----------- 16. Shape Mockup ----------*/
 $.fn.shapeMockup = function () {
