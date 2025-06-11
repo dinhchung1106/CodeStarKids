@@ -3,7 +3,7 @@
 <head>
     <!--================= Meta tag =================-->
     <meta charset="utf-8">
-    <title>Home | Codestar</title>
+    <title>Home | Codestar Cuộc Thi Lập Trình Quốc Tế TOFAS</title>
     <meta name="description" content="CodeStar Academy hướng đến việc mang lại môi trường học tập thực tế trong các khóa học: AWS, ISTQB, lập trình web, Laravel,Tester chuyên nghiệp, Nghề kiểm thử cho người mới">
     <!--================= Responsive Tag =================-->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -36,6 +36,8 @@
     <link rel="stylesheet" href="assets/css/slick.min.css">
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </head>
 
@@ -754,13 +756,13 @@
                     <div class="check-list style-2 mb-40">
                         <ul>
                             <li>
-                                <h4>Vòng 1: 50.000 VND</h4>
+                                <h4>Vòng 1: 50.000 VNĐ</h4>
                             </li>
                             <li>
-                                <h4>Vòng 2: 130.000 VND</h4>
+                                <h4>Vòng 2: 130.000 VNĐ</h4>
                             </li>
                             <li>
-                                <h4>Vòng 3: 230.000 VND</h4>
+                                <h4>Vòng 3: 230.000 VNĐ</h4>
                             </li>
                         </ul>
                     </div>
@@ -803,16 +805,37 @@
 
                 <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.1s">
                     <div class="about-form-box bg-theme">
-                        <h3 class="form-title">Feel Free To Ask Us Anything</h3>
-                        <p class="form-text">Sertively create standardized processes whereas scalable experiences. Progressively harness team driven sources afte capital. </p>
-                        <form action="https://CodeStar/demo/mail.php" method="POST" class="form-style2 ajax-contact">
+                        <h3 class="form-title">Đăng ký cuộc thi</h3>
+                        <p class="form-text"></p>
+                        <form id="myForm" method="POST" class="form-style2 ajax-contact">
                             <div class="row gx-20">
                                 <div class="form-group col-12">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Họ tên" required>
                                 </div>
                                 <div class="form-group col-12">
-                                    <textarea class="form-control" name="message" id="message" placeholder="Message"></textarea>
+                                    <input type="number" class="form-control" name="birthyear" id="birthyear" placeholder="Năm sinh" required>
                                 </div>
+
+                                 <div class="form-group col-12">
+                                    <input type="text" class="form-control" name="school" id="school" placeholder="Tên trường" required>
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <input type="text" class="form-control" name="parent_name" id="parent_name" placeholder="Họ tên phụ huynh (hoặc người giám hộ)" required>
+                                </div>
+
+                                 <div class="form-group col-12">
+                                    <input type="number" class="form-control" name="phone" id="phone" placeholder="Số điện thoại" required>
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <input type="text" class="form-control" name="account_information" id="account_information" placeholder="Thông tin tài khoản nhận lại lệ phí ghi danh" required>
+                                </div>
+
                                 <div class="form-btn mt-10 col-12">
                                     <button type="submit" class="vs-btn wave-btn btn-white">Submit</button>
                                 </div>
@@ -824,86 +847,13 @@
             </div>
 
         </div>
-        <div class="shape-after"><img src="assets/img/shape/after-shape-8.png" alt="shape"></div>
+        <!-- <div class="shape-after"><img src="assets/img/shape/after-shape-8.png" alt="shape"></div> -->
         <div class="shape-mockup movingX d-none d-hd-block" data-top="15%" data-left="6%"><img src="assets/img/icon/note-2.png" alt="shapes"></div>
         <div class="shape-mockup moving d-none d-hd-block" data-bottom="15%" data-left="6%"><img src="assets/img/icon/ballon.png" alt="shapes"></div>
         <div class="shape-mockup movingX d-none d-hd-block" data-top="19%" data-right="5%"><img src="assets/img/icon/paper-plane.png" alt="shapes"></div>
-        <div class="shape-mockup movingX d-none d-hd-block" data-ani-delay="4s" data-bottom="2%" data-right="14%"><img src="assets/img/icon/car-6.png" alt="shapes"></div>
+        <div class="shape-mockup movingX d-none d-hd-block" data-ani-delay="4s" data-bottom="10%" data-right="14%"><img src="assets/img/icon/car-6.png" alt="shapes"></div>
     </section>
     <!--======== / CÁCH THỨC ĐĂNG KÝ Section ========-->
-
-    <!--======== CHIA SẺ VỀ KỲ THI Section ========-->
-    <section class="testimonial-section space-top-shape2-plus space-bottom-shape-plus">
-        <div class="container">
-            <div class="row gy-30 align-items-center">
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="text-center text-lg-start">
-                        <h2 class="sec-title">CHIA SẺ VỀ KỲ THI</h2>
-                        <p class="mb-30">Monotonectally conceptualize economically sound value after accurate growth strategies. Quickly parallel task client-centric materials technologies.</p>
-                        <a href="#" class="vs-btn wave-btn style-1">View All Reviews</a>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="testi-slider-area">
-                        <div class="row testi-slider vs-carousel" id="testi1" data-slide-show="2">
-                            <!-- Single Item -->
-                            <div class="col-md-6">
-                                <div class="testi-box">
-                                    <div class="testi-avater">
-                                        <img src="assets/img/testimonial/avator-1.jpg" alt="testimonial">
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                    <h4 class="testi-title">They Are Amazing</h4>
-                                    <p class="testi-text">everaged total linkage rather than holisticlis markets. ransition enabled niches whereas cross media benefits world..</p>
-                                    <div class="testi-author">
-                                        <h5 class="name">Jerzzy Lamot</h5>
-                                        <span class="desig">Parent</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Item -->
-                            <div class="col-md-6">
-                                <div class="testi-box">
-                                    <div class="testi-avater">
-                                        <img src="assets/img/testimonial/avator-2.jpg" alt="testimonial">
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                    <h4 class="testi-title">They Are Like Family</h4>
-                                    <p class="testi-text">everaged total linkage rather than holisticlis markets. ransition enabled niches whereas cross media benefits world..</p>
-                                    <div class="testi-author">
-                                        <h5 class="name">Jone David</h5>
-                                        <span class="desig">Gurdian</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Item -->
-                            <div class="col-md-6">
-                                <div class="testi-box">
-                                    <div class="testi-avater">
-                                        <img src="assets/img/testimonial/avator-3.jpg" alt="testimonial">
-                                        <i class="fa-solid fa-quote-left"></i>
-                                    </div>
-                                    <h4 class="testi-title">My Child Enjoyed</h4>
-                                    <p class="testi-text">everaged total linkage rather than holisticlis markets. ransition enabled niches whereas cross media benefits world..</p>
-                                    <div class="testi-author">
-                                        <h5 class="name">Mark Jone</h5>
-                                        <span class="desig">Brother</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- / Slider End -->
-                        <div class="vs-icon-box testi-1 d-none d-xl-block">
-                            <button data-slick-prev="#testi1" class="icon-btn style-3 arrow-left mb-15"><i class="far fa-arrow-left"></i></button>
-                            <button data-slick-next="#testi1" class="icon-btn style-3 arrow-right"><i class="far fa-arrow-right"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="shape-mockup moving d-none d-xl-block" style="bottom: 10%; left: 4%;"><img src="assets/img/icon/halicopter.png" alt="shapes"></div>
-        <div class="flayer shapePulse d-none d-lg-block"><img src="assets/img/shape/flayer.png" alt="shapes"></div>
-    </section>
-    <!--======== / CHIA SẺ VỀ KỲ THI Section ========-->
 
     <!--======== CẤU TRÚC ĐỀ THI Section ========-->
     <section id="exam-structure" class="class-section bg-smoke space-page">
@@ -912,7 +862,8 @@
 <!--            <div class="shape-after"><img src="assets/img/shape/after-shape-5.png" alt="shape"></div>-->
             <div class="row gx-60">
                 <h2 class="sec-title">CẤU TRÚC ĐỀ THI</h2>
-                <div class="col-xl-8 col-lg-7">
+                <h4 class="info-title">Đề thi hoàn toàn bằng tiếng anh  </h4>
+                <div class="col-xl-6 col-lg-7">
                     <div class="class-details">
                         <div class="row class-big-img vs-carousel" id="classBig" data-slide-show="1" data-md-slide-show="1" data-fade="true">
                             <div class="col-12">
@@ -958,55 +909,63 @@
                     </div> <!-- / class details -->
                 </div> <!-- / col-8 end -->
                 <!-- Sidebar -->
-                <div class="col-xl-4 col-lg-5">
+                <div class="col-xl-6 col-lg-5">
                     <aside class="sidebar-area class-sidebar">
                         <div class="widget wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="class-info-wrap">
-                                <div class="info-item">
-                                    <i class="fas fa-calendar-alt"></i>
-                                    <div class="info">
-                                        <h6 class="title">Start Date: </h6>
-                                        <span class="text">25 October, 2024</span>
+                             <div class="info-item">
+                                <div class="event-card">
+                                    <h2 class="event-date"><a href="event-details.html" class="text-inherit">Vòng 1</a></h2>
+                                    <div class="event-content">
+                                        <!-- <h4 class="event-title"><a href="event-details.html">Vòng 1</a></h4> -->
+
+                                        <div class="check-list style-4">
+                                            <ul>
+                                                <li>Thời lượng: 40 phút</li>
+                                                <li>Số lượng câu hỏi : 20 câu </li>
+                                                <li>Mức độ: Đơn giản </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="info-item">
-                                    <i class="fas fa-user"></i>
-                                    <div class="info">
-                                        <h6 class="title">Student Ages: </h6>
-                                        <span class="text">03 - 06 Years</span>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="event-card">
+                                    <h2 class="event-date"><a href="event-details.html" class="text-inherit">Vòng 2</a></h2>
+                                    <div class="event-content">
+                                        <!-- <h4 class="event-title"><a href="event-details.html">Kids Days Drawing Event</a></h4> -->
+                                       <div class="check-list style-4">
+                                            <ul>
+                                                <li>Thời lượng: 40 phút</li>
+                                                <li>Số lượng câu hỏi : 25-30 câu </li>
+                                                <li>Mức độ: Đơn giản </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="info-item">
-                                    <i class="fas fa-users-class"></i>
-                                    <div class="info">
-                                        <h6 class="title">Number Of Kids: </h6>
-                                        <span class="text">30 Child Student</span>
-                                    </div>
-                                </div>
-                                <div class="info-item">
-                                    <i class="fas fa-clock"></i>
-                                    <div class="info">
-                                        <h6 class="title">Class Time: </h6>
-                                        <span class="text">9:00am - 12:00pm</span>
-                                    </div>
-                                </div>
-                                <div class="info-item">
-                                    <i class="fas fa-sunrise"></i>
-                                    <div class="info">
-                                        <h6 class="title">Class Day: </h6>
-                                        <span class="text">Monday, Friday</span>
-                                    </div>
-                                </div>
-                                <div class="info-item">
-                                    <i class="fas fa-language"></i>
-                                    <div class="info">
-                                        <h6 class="title">Language: </h6>
-                                        <span class="text">English</span>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="event-card">
+                                    <h2 class="event-date"><a href="event-details.html" class="text-inherit">Vòng 3</a></h2>
+                                    <div class="event-content">
+                                        <!-- <h4 class="event-title"><a href="event-details.html">Kids Days Drawing Event</a></h4> -->
+                                        <div class="check-list style-4">
+                                            <ul>
+                                                <li>Thời lượng: 40 phút</li>
+                                                <li>Số lượng câu hỏi : 25 câu </li>
+                                                <li>Mức độ: Khó </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </aside>
+
+
+
+
                 </div>
             </div>
         </div>
@@ -1136,6 +1095,78 @@
     <script src="assets/js/ajax-mail.js"></script>
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>
+
+
+
+    <script>
+        const Toast = Swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+                toast.addEventListener('mouseenter', Swal.stopTimer);
+                toast.addEventListener('mouseleave', Swal.resumeTimer);
+            }
+        });
+
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const birthyear = document.getElementById('birthyear').value;
+            const school = document.getElementById('school').value;
+            const parent_name = document.getElementById('parent_name').value;
+            const phone = document.getElementById('phone').value;
+            const email = document.getElementById('email').value;
+            const account_information = document.getElementById('account_information').value;
+
+
+            if (!name || !birthyear || !school || !parent_name || !phone || !email || !account_information) {
+                Toast.fire({
+                    icon: 'error',
+                    title: 'Vui lòng điền đầy đủ thông tin !'
+                });
+                return;
+            }
+            if (!email.includes('@')) {
+                Toast.fire({
+                    icon: 'error',
+                    title: 'Vui lòng nhập email hợp lệ !'
+                });
+                return;
+            }
+            const formData = new FormData();
+            formData.append('entry.1341570075', name);
+            formData.append('entry.1260660307', birthyear);
+            formData.append('entry.47909299', school);
+            formData.append('entry.1921683919', parent_name);
+            formData.append('entry.1405844343', phone);
+            formData.append('entry.1451531317', email);
+            formData.append('entry.2027374853', account_information);
+
+            fetch('https://docs.google.com/forms/u/0/d/e/1FAIpQLScBgHgV6nmAIiBvI47l5KKxJclnrJGJ881LCqGcaX2rNt5epg/formResponse', {
+                method: 'POST',
+                body: formData,
+                mode: 'no-cors'
+            })
+            .then(() => {
+                Toast.fire({
+                    icon: 'success',
+                    title: 'Bạn đã đăng ký thành công!'
+                });
+                document.getElementById('myForm').reset();
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                Toast.fire({
+                    icon: 'error',
+                    title: 'Có lỗi xảy ra khi gửi form'
+                });
+            });
+        });
+    </script>
+
 
 </body>
 
