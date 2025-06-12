@@ -144,12 +144,7 @@ $('.vs-menu-wrapper').vsmobilemenu();
     $targetMenu.parent().css('min-height', height);
     if ($(window).scrollTop() > 800) {
       $targetMenu.parent().addClass($parentClass);
-
-      if (st > lastScrollTop) {
-        $targetMenu.removeClass($toggleClass);
-      } else {
-        $targetMenu.addClass($toggleClass);
-      };
+      $targetMenu.addClass($toggleClass); // Always add active class when scrolled past 800px
     } else {
       $targetMenu.parent().css('min-height', '').removeClass($parentClass);
       $targetMenu.removeClass($toggleClass);
