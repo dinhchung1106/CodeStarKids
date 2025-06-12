@@ -13216,10 +13216,11 @@ span.select2-selection.select2-selection--single:focus {
   color: var(--white-color);
 }
 .classes-layout1 .class-box1 .class-content {
-  padding: 32px 40px;
+  padding: 32px 22px;
+  text-align: center;
 }
 .classes-layout1 .class-box1 .class-content .class-title a {
-  font-size: 30px;
+  font-size: 21px;
 }
 .classes-layout1 .class-box1 .class-content .class-info {
   margin-bottom: 15px;
@@ -13644,4 +13645,28 @@ div.shape-mockup.shapePulse.d-hd-block-custom,
 div.shape-mockup.rotate.d-hd-block-custom
  {
   display: block !important;
+}
+
+#counter-exam-about .connter_icon {
+  font-size: 50px;
+  margin: 0 10px 17px 0;
+}
+
+#counter-exam-about .counter-box .counter-text,
+#counter-exam-about .counter-box .counter-number,
+#counter-exam-about .connter_icon
+ {
+  color: #585bb6;
+}
+
+#award .class-content {
+  background-color: #f9f6ef;
+}
+
+#award .check-list.style-4 ul {
+    display: block;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
 }
