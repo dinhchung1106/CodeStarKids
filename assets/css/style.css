@@ -24538,10 +24538,10 @@ div.shape-mockup.rotate.d-hd-block-custom
   .d-hd-paper,
   .shape-mockup.shapePulse.d-hd-block-custom.d-hd-butterfly,
   .shape-mockup.shapePulse.d-none.d-hd-block-custom.d-hd-egg,
-  .d-hd-fi31,
-  .d-hd-fi32,
-  .d-hd-fi33,
-  .d-hd-fi36
+  .shape-mockup.movingX.d-hd-block-custom.d-hd-fi31,
+  .shape-mockup.movingX-reverse.d-hd-block-custom.d-hd-fi32,
+  .shape-mockup.rotate.d-hd-block-custom.d-hd-fi33,
+  .shape-mockup.movingX.d-hd-block-custom.d-hd-fi36
    {
     display: none !important;
   }
