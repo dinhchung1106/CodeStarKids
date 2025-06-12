@@ -18980,6 +18980,7 @@ span.select2-selection.select2-selection--single:focus {
 /*------------------- 4.19. Service  -------------------*/
 .service-section {
   position: relative;
+  padding-bottom: 100px !important;
 }
 
 .service-card-inner {
@@ -23155,6 +23156,9 @@ span.select2-selection.select2-selection--single:focus {
   padding-bottom: 210px;
 }
 
+#exam-structure {
+  padding-bottom: 40px !important;
+}
 /* Large devices */
 @media (max-width: 1199px) {
   .space-double,
@@ -23401,7 +23405,7 @@ span.select2-selection.select2-selection--single:focus {
   margin-bottom: 30px;
 }
 .about-layout1 .check-list1 .about-list li {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
   color: var(--title-color);
   text-transform: capitalize;
@@ -23849,14 +23853,12 @@ span.select2-selection.select2-selection--single:focus {
   border-radius: 10px;
 }
 
-
-
 .exam-round {
   background: #fff;
   border-radius: 24px;
   box-shadow: 0 4px 24px 0 rgba(0,0,0,0.07);
-  padding: 10px 24px;
-  margin-bottom: 32px;
+  padding: 0px 24px;
+  margin-bottom: 12px;
   position: relative;
   border-left: 8px solid #6c63ff;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -24038,8 +24040,8 @@ span.select2-selection.select2-selection--single:focus {
 
 .class-section .shape-sun {
   position: absolute;
-  top: 120px;
-  left: 100px;
+  top: 0px;
+  left: 44px;
 }
 
 .class-section .glob {
@@ -24464,7 +24466,26 @@ div.shape-mockup.rotate.d-hd-block-custom
   transform: translateY(-8px) scale(1.03);
 }
 
+.d-hd-block-custom-sun,
+.d-hd-glob-custom
+ {
+  display: block !important;
+}
 
+ #dangky {
+  padding-top: 45px !important;
+ }
+
+.d-hd-cap {
+  position: absolute;
+  top: 36px;
+  left: 48px;
+  display: block !important;
+}
+
+.d-hd-cap img {
+  max-width: 45% !important;
+}
 @media only screen and (max-width: 768px) {
   #dangky .contact-car-icon img {
     max-width: 50% !important;
@@ -24490,10 +24511,97 @@ div.shape-mockup.rotate.d-hd-block-custom
     max-width: 65%;
   }
   .d-exam-about {
-    left: 63% !important;
+    left: 67% !important;
   }
   .about-layout1 .about-img {
     display: block;
     margin-bottom: 15px;
+  }
+
+  .d-hd-rocket img {
+    max-width: 60%;
+  }
+
+  .d-hd-rocket {
+    top: 3% !important;
+    right: 0% !important;
+  }
+
+  .d-hd-star-sm {
+    top: 7% !important;
+  }
+
+  .shape-mockup.shapePulse.d-hd-block-custom.d-hd-draw1,
+  .shape-mockup.rotate.d-hd-block-custom.d-hd-star8,
+  .shape-mockup.movingX.rotate.d-hd-block-custom.d-hd-star9,
+  .d-hd-glob-custom,
+  .d-hd-paper,
+  .shape-mockup.shapePulse.d-hd-block-custom.d-hd-butterfly,
+  .shape-mockup.shapePulse.d-none.d-hd-block-custom.d-hd-egg,
+  .d-hd-fi31,
+  .d-hd-fi32,
+  .d-hd-fi33,
+  .d-hd-fi36
+   {
+    display: none !important;
+  }
+
+  .class-section .shape-sun {
+    top: 0px !important;
+    left: 261px !important;
+  }
+
+  .d-hd-service-sun img {
+    max-width: 50%;
+  }
+
+  .d-hd-math img {
+    max-width: 50%;
+  }
+  .d-hd-math {
+    top: 4% !important;
+    right: 0% !important;
+  }
+
+  .d-hd-cap-plane {
+    top: 9% !important;
+    left: 70% !important;
+  }
+  .d-hd-cap-plane img {
+    max-width: 75%;
+  }
+
+  .d-hd-cap img {
+   max-width: 35% !important; 
+  }
+
+  .d-hd-cap {
+    top: 0px !important;
+    left: 29px !important;
+  }
+
+  .d-hd-note2 {
+    top: 8% !important;
+    left: 68% !important;
+  }
+
+  .service-section.space-double {
+    padding-bottom: 30px !important;
+  }
+
+  .exam-round.round-1 .event-date,
+  .exam-round.round-2 .event-date,
+  .exam-round.round-3 .event-date {
+    margin-top: 20px;
+    margin-bottom: -12px;
+  }
+
+  .d-hd-fi35 {
+    top: 33% !important;
+    right: 18% !important;
+  }
+  .d-hd-fi34 {
+    top: 3% !important;
+    left: 72% !important;
   }
 }
