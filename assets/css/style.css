@@ -4598,12 +4598,12 @@ ul.popular-service-wrap li:hover {
   -webkit-mask-size: contain;
 }
 .blog-card .blog-content {
-  background-color: var(--white-color);
+  /*background-color: var(--white-color);*/
   border-radius: 50px;
-  box-shadow: 0px 10px 15px 0px rgba(193, 202, 210, 0.25);
+  /*box-shadow: 0px 10px 15px 0px rgba(193, 202, 210, 0.25);*/
   padding: 145px 40px 33px 40px;
-  margin-top: -110px;
-  border: 1px solid transparent;
+  /*margin-top: -110px;*/
+  /*border: 1px solid transparent;*/
   transition: all ease 0.4s;
 }
 .blog-card .blog-meta {
@@ -13657,10 +13657,6 @@ div.shape-mockup.rotate.d-hd-block-custom
   color: var(--white-color);
 }
 
-#award .class-content {
-  background-color: #f9f6ef;
-}
-
 #award .check-list.style-4 ul {
     display: block;
 }
@@ -13686,6 +13682,87 @@ div.shape-mockup.rotate.d-hd-block-custom
   text-align: center;
 }
 
+.class-box1.class-one {
+  background: linear-gradient(135deg, #fffbe6 60%, #ffe066 100%);
+  border: 3px solid #ffd700;
+  box-shadow: 0 4px 24px 0 rgba(255, 215, 0, 0.25);
+  border-radius: 24px;
+  position: relative;
+  overflow: visible;
+}
+
+.class-box1.class-one::before {
+  content: "🥇";
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  font-size: 3.5rem;
+  z-index: 10;
+  pointer-events: none;
+  filter: drop-shadow(0 2px 8px #ffd70088);
+}
+.class-box1.class-one .class-content {
+  position: relative;
+  z-index: 1;
+}
+
+.class-box1.class-two {
+    background: linear-gradient(135deg, #f8fafc 60%, #e0e0e0 100%);
+    border: 3px solid #b0b0b0;
+    box-shadow: 0 4px 24px 0 rgba(176, 176, 176, 0.18);
+    border-radius: 24px;
+    position: relative;
+    overflow: visible;
+}
+.class-box1.class-two::before {
+    content: "🥈";
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    font-size: 3.5rem;
+    z-index: 10;
+    pointer-events: none;
+    filter: drop-shadow(0 2px 8px #b0b0b088);
+}
+
+.class-box1.class-three {
+    background: linear-gradient(135deg, #fff8f0 60%, #ffd6a0 100%);
+    border: 3px solid #cd7f32;
+    box-shadow: 0 4px 24px 0 rgba(205, 127, 50, 0.18);
+    border-radius: 24px;
+    position: relative;
+    overflow: visible;
+}
+.class-box1.class-three::before {
+    content: "🥉";
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    font-size: 3.5rem;
+    z-index: 10;
+    pointer-events: none;
+    filter: drop-shadow(0 2px 8px #cd7f3288);
+}
+
+.class-box1.class-four {
+    background: linear-gradient(135deg, #e6f7ff 60%, #b3e5fc 100%);
+    border: 3px solid #29b6f6;
+    box-shadow: 0 4px 24px 0 rgba(41, 182, 246, 0.18);
+    border-radius: 24px;
+    position: relative;
+    overflow: visible;
+}
+.class-box1.class-four::before {
+    content: "⭐";
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    font-size: 3.5rem;
+    z-index: 10;
+    pointer-events: none;
+    filter: drop-shadow(0 2px 8px #29b6f688);
+}
+
 @media only screen and (max-width: 768px) {
   #contact .contact-car-icon img {
     max-width: 50% !important;
@@ -13700,11 +13777,11 @@ div.shape-mockup.rotate.d-hd-block-custom
   }
 
   .class-one, .class-three {
-    padding-bottom: 105px;
+    margin-bottom: 50px;
   }
 
   .about-img.about-img-custom {
-    padding-bottom: 140px;
+    padding-bottom: 40px;
   }
 
   .header-logo img, .mobile-logo img {
