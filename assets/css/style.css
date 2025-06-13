@@ -13591,7 +13591,6 @@ span.select2-selection.select2-selection--single:focus {
 
 /*# sourceMappingURL=style.css.map */
 
-
 @keyframes spin {
   to {
     transform: rotate(360deg);
@@ -13635,7 +13634,6 @@ span.select2-selection.select2-selection--single:focus {
   z-index: 1;
 }  
 
-
 .d-hd-block-custom
  {
   display: block;
@@ -13669,4 +13667,53 @@ div.shape-mockup.rotate.d-hd-block-custom
 
 .pb-80 {
   padding-bottom: 80px;
+}
+
+.p-custom,
+.event-content ul li,
+.class-content ul li,
+.class-title,
+.check-list-contact ul li h4
+{
+  color: var(--theme-color) !important;
+}
+.about-img-custom img{
+  border-radius: 50px;
+  box-shadow: 0px 10px 15px 0px rgba(193, 202, 210, 0.25);
+  border: 1px solid transparent;
+  transition: all ease 0.4s;
+}
+
+#award .class-title {
+  font-size: 20px;
+}
+.p-custom-note {
+  font-size: 18px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #contact .contact-car-icon img {
+    max-width: 50% !important;
+  }
+  #contact .contact-car-icon {
+    right: -14% !important;
+    bottom: 4% !important;
+  }
+  #contact .contact-ballon-icon {
+    bottom: 35% !important;
+    left: 7% !important;
+  }
+
+  .class-one, .class-three {
+    padding-bottom: 105px;
+  }
+
+  .about-img.about-img-custom {
+    padding-bottom: 140px;
+  }
+
+  .header-logo img, .mobile-logo img {
+    max-width: 65%;
+  }
 }
