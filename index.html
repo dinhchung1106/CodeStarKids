@@ -825,6 +825,12 @@
                                         placeholder="Thông tin tài khoản nhận lại lệ phí ghi danh" required>
                                 </div>
 
+                                <div class="form-group col-12">
+                                    <input type="text" class="form-control" name="hear_about"
+                                           id="hear_about"
+                                           placeholder="Bạn biết đến kỳ thi từ kênh nào" required>
+                                </div>
+
                                 <div class="form-btn mt-10 col-12">
                                     <button type="submit" class="vs-btn wave-btn btn-white"
                                         id="submitButton">Submit</button>
@@ -1219,6 +1225,7 @@
             const phone = document.getElementById('phone').value;
             const email = document.getElementById('email').value;
             const account_information = document.getElementById('account_information').value;
+            const hear_about = document.getElementById('hear_about').value;
 
             const submitButton = document.getElementById('submitButton');
             const loadingSpinner = document.getElementById('loadingSpinner');
@@ -1228,7 +1235,7 @@
 
             const startTime = Date.now(); // Record the start time
 
-            if (!name || !birthyear || !school || !parent_name || !phone || !email || !account_information) {
+            if (!name || !birthyear || !school || !parent_name || !phone || !email || !account_information || !hear_about) {
                 Toast.fire({
                     icon: 'error',
                     title: 'Vui lòng điền đầy đủ thông tin !'
@@ -1254,6 +1261,7 @@
             formData.append('entry.1405844343', phone);
             formData.append('entry.1451531317', email);
             formData.append('entry.2027374853', account_information);
+            formData.append('entry.1305634965', hear_about);
 
             fetch('https://docs.google.com/forms/u/0/d/e/1FAIpQLScBgHgV6nmAIiBvI47l5KKxJclnrJGJ881LCqGcaX2rNt5epg/formResponse', {
                 method: 'POST',
