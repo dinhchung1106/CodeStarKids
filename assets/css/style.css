@@ -24055,7 +24055,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .gx-19 {
-  --bs-gutter-x: 17px;
+  --bs-gutter-x: 12px;
 }
 
 .preloader-logo {
@@ -24199,21 +24199,20 @@ div.shape-mockup.rotate.d-hd-block-custom
 .refund-policy-list {
   display: flex;
   flex-direction: column;
-  /*gap: 20px;*/
   margin-top: 24px;
 }
 .refund-policy-item {
   display: flex;
   align-items: center;
-  background: #f8faff;
+  background: rgba(255,255,255,0.95);
   border-radius: 20px;
-  box-shadow: 0 2px 12px 0 rgba(108,99,255,0.07);
+  box-shadow: 0 8px 32px 0 rgba(108,99,255,0.10), 0 2px 8px 0 rgba(0,0,0,0.04);
   padding: 18px 24px;
-  transition: box-shadow 0.2s, transform 0.2s;
+  transition: box-shadow 0.22s, transform 0.22s;
 }
 .refund-policy-item:hover {
-  box-shadow: 0 6px 24px 0 rgba(108,99,255,0.15);
-  transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 16px 48px 0 rgba(108,99,255,0.18), 0 4px 16px 0 rgba(0,0,0,0.08);
+  transform: translateY(-4px) scale(1.02);
 }
 .refund-policy-icon {
   width: 56px;
@@ -24244,20 +24243,22 @@ div.shape-mockup.rotate.d-hd-block-custom
   gap: 14px;
   margin-top: 16px;
 }
+
 .exam-fee-item {
   display: flex;
   align-items: center;
-  background: #f8faff;
-  border-radius: 16px;
-  box-shadow: 0 2px 8px 0 rgba(108,99,255,0.07);
-  padding: 12px 20px;
+  background: rgba(255,255,255,0.95);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(108,99,255,0.10), 0 2px 8px 0 rgba(0,0,0,0.04);
+  padding: 16px 24px;
   font-size: 1.1rem;
   font-weight: 500;
-  transition: box-shadow 0.2s, transform 0.2s;
+  transition: box-shadow 0.22s, transform 0.22s;
+  margin-bottom: 14px;
 }
 .exam-fee-item:hover {
-  box-shadow: 0 6px 18px 0 rgba(108,99,255,0.13);
-  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 16px 48px 0 rgba(108,99,255,0.18), 0 4px 16px 0 rgba(0,0,0,0.08);
+  transform: translateY(-4px) scale(1.02);
 }
 .exam-fee-icon {
   font-size: 1.5rem;
@@ -24446,6 +24447,23 @@ div.shape-mockup.rotate.d-hd-block-custom
   margin-top: 10px;
 }
 
+.service-card-inner {
+  background: rgba(255,255,255,0.95);
+  border-radius: 28px;
+  box-shadow: 0 8px 32px 0 rgba(108,99,255,0.10), 0 2px 8px 0 rgba(0,0,0,0.04);
+  padding: 36px 18px 28px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.22s, transform 0.22s;
+  min-height: 260px;
+  position: relative;
+}
+.service-card-inner:hover {
+  box-shadow: 0 16px 48px 0 rgba(108,99,255,0.18), 0 4px 16px 0 rgba(0,0,0,0.08);
+  transform: translateY(-8px) scale(1.03);
+}
+
 
 @media only screen and (max-width: 768px) {
   #dangky .contact-car-icon img {
@@ -24470,5 +24488,12 @@ div.shape-mockup.rotate.d-hd-block-custom
 
   .header-logo img, .mobile-logo img {
     max-width: 65%;
+  }
+  .d-exam-about {
+    left: 63% !important;
+  }
+  .about-layout1 .about-img {
+    display: block;
+    margin-bottom: 15px;
   }
 }
