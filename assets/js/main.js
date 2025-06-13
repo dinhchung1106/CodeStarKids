@@ -202,17 +202,17 @@ if ($('[data-mask-src]').length > 0) {
 
 /*----------- 07. Magnific Popup ----------*/
 /* magnificPopup img view */
-$('.popup-image').magnificPopup({
-  type: 'image',
-  gallery: {
-    enabled: true
-  }
-});
-
-/* magnificPopup video view */
-$('.popup-video').magnificPopup({
-  type: 'iframe'
-});
+// $('.popup-image').magnificPopup({
+//   type: 'image',
+//   gallery: {
+//     enabled: true
+//   }
+// });
+//
+// /* magnificPopup video view */
+// $('.popup-video').magnificPopup({
+//   type: 'iframe'
+// });
 
 
 /*---------- 08. Section Positioning ----------*/
@@ -246,48 +246,48 @@ $.fn.sectionPosition = function (mainAttr, posAttr) {
   })
 }
 
-var postionHandler = '[data-sec-pos]';
-if ($(postionHandler).length) {
-  $(postionHandler).imagesLoaded(function () {
-    $(postionHandler).sectionPosition('data-sec-pos', 'data-pos-for');
-  });
-}
-
-/*----------- 09. Filter ----------*/
-$('.filter-active').imagesLoaded(function () {
-  var $filter = '.filter-active',
-    $filterItem = '.filter-item',
-    $filterMenu = '.filter-menu-active';
-
-  if ($($filter).length > 0) {
-    var $grid = $($filter).isotope({
-      itemSelector: $filterItem,
-      filter: '*',
-      /*
-      // For masonary layout activation
-      masonry: {
-        // use outer width of grid-sizer for columnWidth
-        columnWidth: 1
-      }
-      */
-    });
-
-    // filter items on button click
-    $($filterMenu).on('click', 'button', function () {
-      var filterValue = $(this).attr('data-filter');
-      $grid.isotope({
-        filter: filterValue
-      });
-    });
-
-    // Menu Active Class 
-    $($filterMenu).on('click', 'button', function (event) {
-      event.preventDefault();
-      $(this).addClass('active');
-      $(this).siblings('.active').removeClass('active');
-    });
-  };
-});
+// var postionHandler = '[data-sec-pos]';
+// if ($(postionHandler).length) {
+//   $(postionHandler).imagesLoaded(function () {
+//     $(postionHandler).sectionPosition('data-sec-pos', 'data-pos-for');
+//   });
+// }
+//
+// /*----------- 09. Filter ----------*/
+// $('.filter-active').imagesLoaded(function () {
+//   var $filter = '.filter-active',
+//     $filterItem = '.filter-item',
+//     $filterMenu = '.filter-menu-active';
+//
+//   if ($($filter).length > 0) {
+//     var $grid = $($filter).isotope({
+//       itemSelector: $filterItem,
+//       filter: '*',
+//       /*
+//       // For masonary layout activation
+//       masonry: {
+//         // use outer width of grid-sizer for columnWidth
+//         columnWidth: 1
+//       }
+//       */
+//     });
+//
+//     // filter items on button click
+//     $($filterMenu).on('click', 'button', function () {
+//       var filterValue = $(this).attr('data-filter');
+//       $grid.isotope({
+//         filter: filterValue
+//       });
+//     });
+//
+//     // Menu Active Class
+//     $($filterMenu).on('click', 'button', function (event) {
+//       event.preventDefault();
+//       $(this).addClass('active');
+//       $(this).siblings('.active').removeClass('active');
+//     });
+//   };
+// });
 
 /*----------- 10. Woocommerce All ----------*/
 // Ship To Different Address
