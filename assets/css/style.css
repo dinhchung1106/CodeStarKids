@@ -13811,14 +13811,14 @@ div.shape-mockup.rotate.d-hd-block-custom
 }
 
 @media only screen and (max-width: 768px) {
-  #contact .contact-car-icon img {
+  #dangky .contact-car-icon img {
     max-width: 50% !important;
   }
-  #contact .contact-car-icon {
+  #dangky .contact-car-icon {
     right: -14% !important;
     bottom: 4% !important;
   }
-  #contact .contact-ballon-icon {
+  #dangky .contact-ballon-icon {
     bottom: 35% !important;
     left: 7% !important;
   }
