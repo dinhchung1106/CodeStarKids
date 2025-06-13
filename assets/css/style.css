@@ -93,7 +93,7 @@ Version: 1.0.0
   --blue-color: #786acf;
   --border-color: rgb(238, 241, 242);
   --title-font: "Baloo 2", cursive;
-  --para-font: "Catamaran", sans-serif;
+  --para-font: "Montserrat", sans-serif;
   --body-font: "Baloo 2", cursive;
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1220px;
@@ -1692,7 +1692,7 @@ Version: 1.0.0
   --blue-color: #786acf;
   --border-color: rgb(238, 241, 242);
   --title-font: "Baloo 2", cursive;
-  --para-font: "Catamaran", sans-serif;
+  --para-font: "Montserrat", sans-serif;
   --body-font: "Baloo 2", cursive;
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1220px;
@@ -8881,7 +8881,7 @@ Version: 1.0.0
   --blue-color: #786acf;
   --border-color: rgb(238, 241, 242);
   --title-font: "Baloo 2", cursive;
-  --para-font: "Catamaran", sans-serif;
+  --para-font: "Montserrat", sans-serif;
   --body-font: "Baloo 2", cursive;
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1220px;
@@ -10480,7 +10480,7 @@ Version: 1.0.0
   --blue-color: #786acf;
   --border-color: rgb(238, 241, 242);
   --title-font: "Baloo 2", cursive;
-  --para-font: "Catamaran", sans-serif;
+  --para-font: "Montserrat", sans-serif;
   --body-font: "Baloo 2", cursive;
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1220px;
@@ -24345,7 +24345,7 @@ div.shape-mockup.rotate.d-hd-block-custom
   content: "" !important;
 }
 
-.process-section .process-card {
+.process-section-area .process-card {
   border-radius: 32px;
   box-shadow: 0 8px 32px 0 rgba(108,99,255,0.13);
   padding: 36px 28px 28px 28px;
@@ -24359,23 +24359,23 @@ div.shape-mockup.rotate.d-hd-block-custom
   overflow: visible;
   background: #fff;
 }
-.process-section .process-card-one {
+.process-section-area .process-card-one {
   background: linear-gradient(135deg, #fffbe6 60%, #ffe066 100%);
   border-color: #ffe066;
 }
-.process-section .process-card-two {
+.process-section-area .process-card-two {
   background: linear-gradient(135deg, #e6f7ff 60%, #b3e5fc 100%);
   border-color: #29b6f6;
 }
-.process-section .process-card-three {
+.process-section-area .process-card-three {
   background: linear-gradient(135deg, #e6ffe6 60%, #b3e86b 100%);
   border-color: #8bc34a;
 }
-.process-section .process-card:hover {
+.process-section-area .process-card:hover {
   box-shadow: 0 16px 48px 0 rgba(108,99,255,0.22);
   transform: translateY(-10px) scale(1.04);
 }
-.process-section .process-icon {
+.process-section-area .process-icon {
   width: 64px;
   height: 64px;
   background: #fff;
@@ -24390,29 +24390,29 @@ div.shape-mockup.rotate.d-hd-block-custom
   position: relative;
   z-index: 2;
 }
-.process-section .process-card-one .process-icon {
+.process-section-area .process-card-one .process-icon {
   background: radial-gradient(circle, #fff 60%, #ffe066 100%);
   box-shadow: 0 4px 16px 0 rgba(255,224,102,0.18);
 }
-.process-section .process-card-two .process-icon {
+.process-section-area .process-card-two .process-icon {
   background: radial-gradient(circle, #fff 60%, #b3e5fc 100%);
   box-shadow: 0 4px 16px 0 rgba(41,182,246,0.18);
 }
-.process-section .process-card-three .process-icon {
+.process-section-area .process-card-three .process-icon {
   background: radial-gradient(circle, #fff 60%, #b3e86b 100%);
   box-shadow: 0 4px 16px 0 rgba(139,195,74,0.18);
 }
-.process-section .process-card:hover .process-icon {
+.process-section-area .process-card:hover .process-icon {
   transform: scale(1.15) rotate(-8deg);
   box-shadow: 0 0 24px 0 #ffe06699;
 }
-.process-section .process-card-two:hover .process-icon {
+.process-section-area .process-card-two:hover .process-icon {
   box-shadow: 0 0 24px 0 #29b6f699;
 }
-.process-section .process-card-three:hover .process-icon {
+.process-section-area .process-card-three:hover .process-icon {
   box-shadow: 0 0 24px 0 #8bc34a99;
 }
-.process-section .process-number {
+.process-section-area .process-number {
   position: absolute;
   top: -22px;
   right: 28px;
@@ -24431,7 +24431,7 @@ div.shape-mockup.rotate.d-hd-block-custom
   z-index: 3;
   text-shadow: 0 2px 8px #6c63ff44;
 }
-.process-section .process-title {
+.process-section-area .process-title {
   font-size: 1.25rem;
   font-weight: 800;
   color: #2d2a7b;
@@ -24440,7 +24440,7 @@ div.shape-mockup.rotate.d-hd-block-custom
   display: inline-block;
   letter-spacing: 1px;
 }
-.process-section .process-text {
+.process-section-area .process-text {
   color: #3a3a3a;
   font-size: 1.05rem;
   margin-top: 10px;
