@@ -3157,9 +3157,7 @@ ul.popular-service-wrap li:hover {
 }
 
 .info-item {
-  /*display: flex;*/
   border-bottom: 1px solid #ececec;
-  padding-bottom: 15px;
   margin-bottom: 15px;
 }
 .info-item i {
@@ -5593,10 +5591,6 @@ ul.comment-list .vs-comment:last-child:not(.children .vs-comment) > .vs-post-com
   padding: 60px;
   margin-top: 15px;
   border-radius: 30px;
-}
-.vs-comment-form .row,
-.vs-register-form .row {
-  --bs-gutter-x: 20px;
 }
 .vs-comment-form .form-group:last-child,
 .vs-register-form .form-group:last-child {
@@ -10385,10 +10379,6 @@ span.select2-selection.select2-selection--single:focus {
 .process-box-body .process-name a:hover {
   color: var(--theme-color);
 }
-.process-box-body:hover:before {
-  border-color: var(--theme-color);
-}
-
 .process-box:nth-child(even) .process-box-body {
   margin-top: 40px;
 }
@@ -13471,6 +13461,63 @@ span.select2-selection.select2-selection--single:focus {
   width: 90px;
   border-radius: 10px;
 }
+
+
+
+.exam-round {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.07);
+  padding: 10px 24px;
+  margin-bottom: 32px;
+  position: relative;
+  border-left: 8px solid #6c63ff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.exam-round:hover {
+  box-shadow: 0 8px 32px 0 rgba(108,99,255,0.15);
+}
+.exam-round.round-1 { border-left-color: #6c63ff; }
+.exam-round.round-2 { border-left-color: #ffb300; }
+.exam-round.round-3 { border-left-color: #29b6f6; }
+.exam-round .event-date {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6c63ff;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+.exam-round.round-2 .event-date { color: #ffb300; }
+.exam-round.round-3 .event-date { color: #29b6f6; }
+.exam-round .event-date::before {
+  content: "⏰";
+  font-size: 2rem;
+  margin-right: 12px;
+  color: inherit;
+}
+.exam-round.round-2 .event-date::before { content: "📚"; }
+.exam-round.round-3 .event-date::before { content: "⭐"; }
+.exam-round ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.exam-round li {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 28px;
+}
+.exam-round li:before {
+  content: "✔";
+  color: #6c63ff;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.exam-round.round-2 li:before { color: #ffb300; }
+.exam-round.round-3 li:before { color: #29b6f6; }
 
 /* Large devices */
 @media (max-width: 1199px) {
