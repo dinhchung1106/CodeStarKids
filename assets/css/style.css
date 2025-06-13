@@ -15551,6 +15551,14 @@ div.shape-mockup.rotate.d-hd-block-custom
   text-align: center;
 }
 
+#award .check-list.style-4 li {
+  padding-left: 0px;
+}
+
+#award .check-list.style-4 li:before {
+  content: "" !important;
+}
+
 @media only screen and (max-width: 768px) {
   #dangky .contact-car-icon img {
     max-width: 50% !important;
