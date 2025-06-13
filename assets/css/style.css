@@ -15452,8 +15452,6 @@ div.shape-mockup.rotate.d-hd-block-custom
   color: #3a3a3a;
   margin-bottom: 0;
 }
-
-
 .exam-fee-list {
   display: flex;
   flex-direction: column;
@@ -15506,6 +15504,51 @@ div.shape-mockup.rotate.d-hd-block-custom
 
 .process-name {
   margin: 0 0 0px 0;
+}
+
+.service-card-inner {
+  background: #f8faff;
+  border-radius: 24px;
+  box-shadow: 0 2px 12px 0 rgba(108,99,255,0.07);
+  padding: 32px 20px 24px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+  min-height: 260px;
+  position: relative;
+}
+.service-card-inner:hover {
+  box-shadow: 0 8px 32px 0 rgba(108,99,255,0.15);
+  transform: translateY(-6px) scale(1.03);
+}
+.sr-icon {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #e3e6ff 60%, #fffbe6 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  font-size: 2.2rem;
+  box-shadow: 0 2px 8px 0 rgba(108,99,255,0.08);
+  transition: transform 0.2s;
+}
+.service-card-inner:hover .sr-icon {
+  transform: scale(1.12) rotate(-8deg);
+}
+.sr-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2d2a7b;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.sr-text {
+  color: #3a3a3a;
+  font-size: 1rem;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
