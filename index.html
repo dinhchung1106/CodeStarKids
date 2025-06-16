@@ -755,7 +755,7 @@
                             <div class="refund-policy-icon">💸</div>
                             <div class="media-body">
                                 <h4 class="info-title p-custom refund-policy-title">Hoàn 100% lệ phí thi vòng 1</h4>
-                                <p class="info-text p-custom refund-policy-desc">Thí sinh bắt buộc phải tham gia thi vòng 1</p>
+                                <p class="info-text p-custom refund-policy-desc">Sau khi thí sinh hoàn thành bài thi vòng 1</p>
                             </div>
                         </div>
                         <div class="info-media refund-policy-item">
@@ -820,11 +820,11 @@
                                         required>
                                 </div>
 
-                                <div class="form-group col-12">
+                               <!-- <div class="form-group col-12">
                                     <input type="text" class="form-control" name="account_information"
                                         id="account_information"
                                         placeholder="Thông tin tài khoản nhận lại lệ phí ghi danh" required>
-                                </div>
+                                </div>-->
 
                                 <div class="form-group col-12">
                                     <input type="text" class="form-control" name="hear_about"
@@ -1226,7 +1226,7 @@
             const parent_name = document.getElementById('parent_name').value;
             const phone = document.getElementById('phone').value;
             const email = document.getElementById('email').value;
-            const account_information = document.getElementById('account_information').value;
+            // const account_information = document.getElementById('account_information').value;
             const hear_about = document.getElementById('hear_about').value;
 
             const submitButton = document.getElementById('submitButton');
@@ -1237,7 +1237,7 @@
 
             const startTime = Date.now(); // Record the start time
 
-            if (!name || !birthyear || !school || !parent_name || !phone || !email || !account_information || !hear_about) {
+            if (!name || !birthyear || !school || !parent_name || !phone || !email || !hear_about) {
                 Toast.fire({
                     icon: 'error',
                     title: 'Vui lòng điền đầy đủ thông tin !'
@@ -1262,7 +1262,7 @@
             formData.append('entry.1921683919', parent_name);
             formData.append('entry.1405844343', phone);
             formData.append('entry.1451531317', email);
-            formData.append('entry.2027374853', account_information);
+            // formData.append('entry.2027374853', account_information);
             formData.append('entry.1305634965', hear_about);
 
             fetch('https://docs.google.com/forms/u/0/d/e/1FAIpQLScBgHgV6nmAIiBvI47l5KKxJclnrJGJ881LCqGcaX2rNt5epg/formResponse', {
