@@ -24604,4 +24604,7 @@ div.shape-mockup.rotate.d-hd-block-custom
     top: 3% !important;
     left: 72% !important;
   }
+  .process-card .process-title {
+    max-width: 175px;
+  }
 }
